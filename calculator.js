@@ -4,6 +4,7 @@ function add(){
    let no2 = document.getElementById("num2").value;
   //console.log(parseInt(no1)+parseInt(no2));
   document.getElementById("res").innerHTML = parseInt(no1)+parseInt(no2);
+   alert(parseInt(no1)+parseInt(no2))
 }
 
 function sub(){
